@@ -1,4 +1,4 @@
-function Paddle(_x, _y, _width, _height, _speed) {
+function GameObject (_x, _y, _width, _height, _speed) {
     var x = _x;
     var y = _y;
     var width = _width;
@@ -36,5 +36,4 @@ function Paddle(_x, _y, _width, _height, _speed) {
     this.setSpeed = function(__speed) {
         this.speed = __speed;
     };
-
 }

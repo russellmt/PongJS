@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#000000, #149214);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+canvas {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    margin-left: 30%;
+}

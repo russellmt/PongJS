@@ -1,8 +1,6 @@
-function GameObject (_x, _y, _width, _height, _speed) {
+function GameObject (_x, _y, _speed) {
     var x = _x;
     var y = _y;
-    var width = _width;
-    var height = _height;
     var speed = _speed;
 
     this.getX = function() {
@@ -19,14 +17,6 @@ function GameObject (_x, _y, _width, _height, _speed) {
 
     this.setY = function(__y) {
         this.y = __y;
-    };
-
-    this.getWidth = function() {
-        return width;
-    };
-
-    this.getHeight = function() {
-        return height;
     };
 
     this.getSpeed = function() {

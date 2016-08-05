@@ -8,7 +8,7 @@ http.createServer(function(request, response) {
     }
 
     handleFileTypeRequest('css', 'css');
-    handleFileTypeRequest('app', 'javascript');
+    handleFileTypeRequest('js', 'javascript');
 
     function handleFileTypeRequest(fileExtension, fileType) {
         var regex = new RegExp('^\/[A-Za-z0-9\/_]*.' + fileExtension + '$');
